@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ #bgimg{
+   
+   background-image: url(./pic.jpg);
+   height: 30vh;
+   background-size: cover;
+   background-position-y: 50%;
+ }
+ 
+ .inputstyle,#pagetitle{
+   display: block;
+ }
+ 
+ .inputstyle{
+   padding: 11px;
+   width:80% ;
+   background-color: #efefef;
+   border: none;
+   margin: 8px;
+ }
+ 
+ body{
+   background-color: rgb(194, 189, 189);
+ }
+ 
+ #container{
+   width: 40%;
+   background-color: white;
+   margin-left: 30%;
+   margin-right: 20%;
+   height: 65vh;
+   padding: 20px;
+ 
+ }
+ 
+ #pagetitle{
+   text-align: center;
+ }
+ 
+ /* #lb_chk{
+   display: block;
+   float: left;
+ } */
+ 
+ #txt_forgot{
+   display: block;
+   float: right;
+ }
+ 
+ #infocontainer{
+   height: 5vh;
+ }
+ 
+ #btnlogin{
+   display: block;
+   width: 82%;
+   height: 100;
+   background-color: orangered;
+   border: none;
+   color: #fff;
+   text-align: center;
+   text-decoration: none;
+   padding: 10px;
+   margin-top: 2rem;
+ 
+ }
+
+#IB_chk{
+    accent-color: orangered;
+}
